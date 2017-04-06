@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-RUN apt-get -y update && apt-get -y install git && apt-get install wget
+RUN apt-get -y update && apt-get -y install git && apt-get -y install wget
 RUN git clone http://github.com/noxrepo/pox
 RUN cd pox && git checkout angler && git pull
 RUN cd /
