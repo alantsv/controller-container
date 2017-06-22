@@ -14,7 +14,7 @@ RUN git submodule update
 
 RUN ant
 
-RUN mkdir /var/lib/floodlight
+RUN mkdir -p /var/lib/floodlight
 
 RUN chmod 777 /var/lib/floodlight
 
