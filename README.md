@@ -35,9 +35,9 @@ Controladores Embutidos Containers
 
 Docker:
 ``` bash
-  sudo docker run -p 8080:8080 -p 6653:6653 floodlight-docker`
+  sudo docker run -p 8080:8080 -p 6653:6653 floodlight-docker
 ```
 Topologia:
 ``` bash
-  sudo mn --custom controller-container\topo-Nsw-2host.py --topo lineartopo --controller=remote,ip=<ip-container>,port=6653`
+  sudo mn --custom controller-container\topo-Nsw-2host.py --topo lineartopo --controller=remote,ip=<ip-container>,port=6653
 ```
