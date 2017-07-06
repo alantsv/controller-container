@@ -34,9 +34,10 @@ Controladores Embutidos Containers
 ## Como funciona?
 
 Docker:
-
-  `sudo docker run -p 8080:8080 -p 6653:6653 floodlight-docker`
-
+``` bash
+  sudo docker run -p 8080:8080 -p 6653:6653 floodlight-docker`
+```
 Topologia:
-
-  `sudo mn --custom controller-container\topo-Nsw-2host.py --topo lineartopo --controller=remote,ip=<ip-container>,port=6653`
+``` bash
+  sudo mn --custom controller-container\topo-Nsw-2host.py --topo lineartopo --controller=remote,ip=<ip-container>,port=6653`
+```
